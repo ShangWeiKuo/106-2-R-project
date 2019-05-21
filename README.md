@@ -1,6 +1,6 @@
 # 106-2-R-project
 ## 以R語言分析台灣觀光產業
-### 資料來源:政府開放資料平台、高雄市政府
+### 資料來源:政府開放資料平台、高雄市政府 (以上資料是介於2013-2016)
 ### 提供數據較完善的城市: 新北市、桃園市、高雄市
 
 1. 熱力圖分析: <br>
@@ -8,7 +8,7 @@
 ![image](https://github.com/ShangWeiKuo/106-2-R-project/blob/master/%E7%86%B1%E5%8A%9B%E5%9C%96.png)
 
 2. 信賴區間圖: <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;利用ddply對資料集Cb_month進行分群並計算出內部資料的平均數、全距的最大和最小值，之後將結果儲存於變數revByCity。接著我們再依據revByCity畫出信賴區間圖。
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;利用ddply對資料集進行分群並計算出內部資料的平均數、全距的最大和最小值，之後將結果畫出三個城市之觀光收入的信賴區間圖。圖上顯示高雄市的觀光收入明顯遠高於新北與桃園市。
 ![image](https://github.com/ShangWeiKuo/106-2-R-project/blob/master/%E4%BF%A1%E8%B3%B4%E5%8D%80%E9%96%93%E5%9C%96.png)
 
 3. 小結: <br>
