@@ -5,7 +5,11 @@
 
 1. 熱力圖分析: <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;利用cor()函數了解「年份」、「人數」和「收入」三者之間的相關性，並繪製成熱力圖以方便知悉三者間的關聯。由熱力圖上的顯示結果可以得知人數與收入之間呈現低度相關，亦即人數並非決定收入的主要因素。
+<center>
+  
 ![image](https://github.com/ShangWeiKuo/106-2-R-project/blob/master/%E7%86%B1%E5%8A%9B%E5%9C%96.png)
+
+</center>
 
 2. 信賴區間圖: <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;利用ddply對資料集進行分群並計算出內部資料的平均數、全距的最大和最小值，之後將結果畫出三個城市之觀光收入的信賴區間圖。圖上顯示高雄市的觀光收入明顯遠高於新北與桃園市。
