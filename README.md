@@ -6,7 +6,7 @@
 1. 熱力圖分析: <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;利用cor()函數了解「年份」、「人數」和「收入」三者之間的相關性，並繪製成熱力圖以方便知悉三者間的關聯。由熱力圖上的顯示結果可以得知人數與收入之間呈現低度相關，亦即人數並非決定收入的主要因素。
 <p align="center">
-![image](https://github.com/ShangWeiKuo/106-2-R-project/blob/master/%E7%86%B1%E5%8A%9B%E5%9C%96.png)
+  <img src="https://github.com/ShangWeiKuo/106-2-R-project/blob/master/%E7%86%B1%E5%8A%9B%E5%9C%96.png">
 </p>
 
 2. 信賴區間圖: <br>
